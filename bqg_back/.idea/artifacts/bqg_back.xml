@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bqg_back">
+    <output-path>$PROJECT_DIR$/out/artifacts/bqg_back</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="bqg_back/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bqg_back" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="myalbum_jar" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
